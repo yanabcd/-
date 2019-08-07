@@ -1,0 +1,164 @@
+        a{ 
+            text-decoration: none;
+            color: inherit;
+            
+        }
+        span{
+            display: inline-block;
+            margin:0 6px;
+        }
+        .top-bar{
+            background: #333333
+        }
+        .top-bar a{
+            display: inline-block
+        }
+        .top-bar .container{
+            font-size:12px;
+            color: #b0b0b0;
+            font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
+            line-height: 40px;
+            font-weight: 400;
+        }
+        
+        .container{
+            
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+            }
+        .info{
+            float: left;
+            height: 40px;
+            line-height: 40px;
+        }
+        .top-bar .spa{
+            color : #424242
+            
+        }
+        #car-width{
+            width: 120px;
+            height: 40px;
+            background: #424242;
+            float: right;
+            
+        }
+        .account{
+            
+            width: 142.47px;
+            float: right;
+
+        }
+        .car-a{
+            position: relative;
+            display: block;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            color: #b0b0b0;
+            background: #424242;
+            margin-left: 15px
+        }
+        
+        .car-a img{
+            width: 20px;
+            height: 20px;
+            
+            top: 5px;
+            margin-right: 4px;
+            vertical-align: -4px;
+            line-height: 40px
+            
+            
+        }
+        .clear-fix::after{
+            content:"";
+            display: block;
+            clear: both;
+        }
+        
+        .top-bar a:hover{
+            color: #ffffff
+        }
+        .menu .container{
+            font-size: 16px;
+            height: 100px;
+            line-height: 100px;
+        }
+        .header-logo{
+            margin-top: 22px;
+            float: left;
+            
+        }
+        .img-mi{
+            width: 55px;
+            height: 55px;
+            background: #ff6700
+            
+        }
+        .shangpin-fenlei{
+            float: left;
+            width: 800px;
+            
+        }
+        .search{
+            float: right;
+            
+        }
+        .menu a:hover{
+            color: #ff6700
+        }
+        .menu ul{
+            padding: 12px 0 0 30px;
+            line-height: 88px;
+        }
+        li{
+            display: inline;
+        }
+        #input-a{
+            padding: 0 10px;
+            font-size: 18px;
+            outline:none;
+            border: 1px solid #e0e0e0
+        }
+        input:focus{
+            border: 1px solid #ff6700;
+        }
+        #tubiao{
+            display: inline-block;
+            height: 100px;
+            
+            
+        }
+        #daxiao{
+            font-size: 30px;
+
+        }
+        #input-b{
+            
+            background: #ffffff;
+            border-color: #b0b0b0;
+            outline:none;
+            position: relative;
+            right: 40px;
+            top: 20px;
+            z-index: -10;
+            border: 1px solid #e0e0e0;
+            line-height: 52px;
+            
+            }
+            .iconfont{
+                position: relative;
+                top: 5px;
+                left: 7px;
+            }
+            
+            #daxiao:hover{
+                cursor: pointer;
+                color: #ffffff;
+                background: #ff6700;
+            }
+            #input-b:hover{
+                
+                background: #ff6700;}
+        
