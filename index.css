@@ -3,6 +3,9 @@
             color: inherit;
             
         }
+        .fz12{
+            font-size: 12px;
+        }
         span{
             display: inline-block;
             margin:0 6px;
@@ -23,7 +26,7 @@
         
         .container{
             
-            width: 90%;
+            width: 1226px;
             margin-left: auto;
             margin-right: auto;
             }
@@ -88,7 +91,7 @@
         .header-logo{
             margin-top: 22px;
             float: left;
-            
+            height: 55px;
         }
         .img-mi{
             width: 55px;
@@ -128,7 +131,6 @@
             display: inline-block;
             height: 100px;
             
-            
         }
         #daxiao{
             font-size: 30px;
@@ -161,4 +163,79 @@
             #input-b:hover{
                 
                 background: #ff6700;}
-        
+            .xiaomiphone-1-width{
+                width: 160px;
+                height: 110px;
+                }
+            .xiaomishouji-price{
+                    text-align: center;
+                }
+            .big-list-div{
+                width: 234px;
+                height: 460px;
+                border: 1px solid #ff6700;
+                position: relative;
+                left: 155px;
+            }    
+        #jiantou{
+            height: 16px;
+            width: 16px;
+        }
+        .jiantou-position1{
+            position: absolute;
+            top: 32px;
+            left: 200px;
+        }
+        .jiantou-position2{
+            position: absolute;
+            top: 74px;
+            left: 200px;
+        }
+        .jiantou-position3{
+            position: absolute;
+            top: 116px;
+            left: 200px;
+        }
+        .jiantou-position4{
+            position: absolute;
+            top: 158px;
+            left: 200px;
+        }
+        .jiantou-position5{
+            position: absolute;
+            top: 200px;
+            left: 200px;
+        }
+        .jiantou-position6{
+            position: absolute;
+            top: 242px;
+            left: 200px;
+        }
+        .jiantou-position7{
+            position: absolute;
+            top: 282px;
+            left: 200px;
+        }.jiantou-position8{
+            position: absolute;
+            top: 324px;
+            left: 200px;
+        }.jiantou-position9{
+            position: absolute;
+            top: 366px;
+            left: 200px;
+        }.jiantou-position10{
+            position: absolute;
+            top: 408px;
+            left: 200px;
+        }
+        .big-list-div ul .li{
+            height: 42px;
+            width: 232px;
+            display: inline-block;
+        }
+        .li-top{
+            margin-top: 32px;
+        }
+        .inside-list{
+            margin-left: 40px;
+        }
