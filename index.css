@@ -178,11 +178,11 @@
                 height: 460px;
                 border: 1px solid #ff6700;
                 position: relative;
-                left: 155px;
+                left: 146px;
             }
             /* 大菜单列表细微布局 */
             div.big-list-div.clear-fix.left.container ul li.li a{
-                margin-left:40px ;
+                margin-left:20px ;
             }
         #jiantou{
             height: 16px;
