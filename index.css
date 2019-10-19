@@ -6,6 +6,9 @@
         .fz12{
             font-size: 12px;
         }
+        .left{
+            float: left;
+        }
         span{
             display: inline-block;
             margin:0 6px;
@@ -176,9 +179,14 @@
                 border: 1px solid #ff6700;
                 position: relative;
                 left: 155px;
-            }    
+            }
+            /* 大菜单列表细微布局 */
+            div.big-list-div.clear-fix.left.container ul li.li a{
+                margin-left:40px ;
+            }
         #jiantou{
             height: 16px;
+            line-height: 16px;
             width: 16px;
         }
         .jiantou-position1{
@@ -230,12 +238,41 @@
         }
         .big-list-div ul .li{
             height: 42px;
+            line-height: 42px;
             width: 232px;
             display: inline-block;
         }
         .li-top{
             margin-top: 32px;
         }
-        .inside-list{
-            margin-left: 40px;
+        
+        .big-list-2{
+            width: 992px;
+            height: 460px;
+            border-right:1px solid black;
+            border-top: 1px solid black;
+            border-bottom: 1px solid black;
+            margin-left: 390px;
+        }
+        .quanbu-text{
+
+        }
+        .big-list-2.container div ul li a{
+            padding: 18px 20px;
+            display: inline-block;
+            width: 225px;
+            height: 41px;
+        }
+        .img-style{
+            height: 40px;
+            widows: 40px;
+            
+        }
+        .big-list-2.container div ul li{
+            height: 76px;
+            width: 265px;
+            display: list-item;
+        }
+        div.big-list-div.clear-fix.left.container ul{
+            padding: 20px 0px;
         }
