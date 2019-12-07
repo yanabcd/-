@@ -3,16 +3,23 @@
             color: inherit;
             
         }
+        /* 公共字体样式大小等 */
         .fz12{
             font-size: 12px;
+        }
+        .fz14{
+            font-size: 14px;
         }
         .left{
             float: left;
         }
-        span{
-            display: inline-block;
-            margin:0 6px;
+        .red{
+            background: #f1393a;
         }
+        .white{
+            color: white;
+        }
+        /* 公共样式结束 */
         .top-bar{
             background: #333333
         }
@@ -26,7 +33,11 @@
             line-height: 40px;
             font-weight: 400;
         }
-        
+        /* 给span标签设置间距 */
+        .top-bar div div span{
+            margin: 0px 6px;
+        }
+        /* 间距结束 */
         .container{
             
             width: 1226px;
@@ -86,6 +97,7 @@
         .top-bar a:hover{
             color: #ffffff
         }
+        /* 导航栏菜单开始 */
         .menu .container{
             font-size: 16px;
             height: 100px;
@@ -101,6 +113,11 @@
             height: 55px;
             background: #ff6700
             
+        }
+        /* 商品分类开始 */
+        div.menu div.container.clear-fix div.shangpin-fenlei ul li {
+            margin-left: 10px;
+            display: inline-block;
         }
         .shangpin-fenlei{
             float: left;
@@ -118,9 +135,8 @@
             padding: 12px 0 0 30px;
             line-height: 88px;
         }
-        li{
-            display: inline;
-        }
+        
+        /* 搜索框开始 */
         #input-a{
             padding: 0 10px;
             font-size: 18px;
@@ -132,7 +148,7 @@
         }
         #tubiao{
             display: inline-block;
-            height: 100px;
+            height: 90px;
             
         }
         #daxiao{
@@ -173,6 +189,7 @@
             .xiaomishouji-price{
                     text-align: center;
                 }
+                /* 大菜单样式列表 */
             .big-list-div{
                 width: 234px;
                 height: 460px;
@@ -241,18 +258,19 @@
             line-height: 42px;
             width: 232px;
             display: inline-block;
+            margin-left: 3px;
         }
         .li-top{
             margin-top: 32px;
         }
-        
+        /* 第二个大菜单列表 */
         .big-list-2{
             width: 992px;
             height: 460px;
             border-right:1px solid black;
             border-top: 1px solid black;
             border-bottom: 1px solid black;
-            margin-left: 390px;
+            margin-left: 382px;
         }
         .quanbu-text{
 
@@ -263,16 +281,96 @@
             width: 225px;
             height: 41px;
         }
-        .img-style{
+        /* 设置ing大小 */
+        .big-list-2.container div ul li img{
             height: 40px;
-            widows: 40px;
-            
+            width: 40px;
         }
+        div.big-list-2.container div ul li a span{
+            display: inline;
+            vertical-align: 15px;
+        }
+
         .big-list-2.container div ul li{
             height: 76px;
             width: 265px;
             display: list-item;
+            
+        }
+        .big-list-2.container div ul{
+            width: 248px;
+            float: left;
+            height: 458px;
+            padding: 2px 0px;
         }
         div.big-list-div.clear-fix.left.container ul{
             padding: 20px 0px;
+        }
+        .big-list-2.container div ul li span{
+            font-size: 14px;
+        }
+        /* 小米秒杀seckill开始 */
+        .seckill-header{
+            background:url(小米秒杀背景图.jpg) ;
+            text-indent: -9999px;
+            height: 170px;
+
+        }
+        .seckill{
+            background: #f5f5f5;
+        }
+        .modle-nostart{
+            height: 68px;
+            border: 1px solid black;
+            position: fixed;
+            z-index: 10;
+            margin-left: 145px;
+        }
+        .modle-nostart .fixed{
+            g
+        }
+        .modle-nostart ul{
+            height: 68px;
+            width: 100%;
+            background: #414141;
+            
+        }
+        .modle-nostart.container#quanzhong ul li{
+            height: 68px;
+            width: 20%;
+            display:block;
+            text-align: center;
+            float: left;
+            line-height: 68px;
+        }
+        .modle-nostart ul li a em{
+            vertical-align: middle;
+        }
+        .modle-nostart ul li a span{
+            vertical-align: middle;
+        }
+        div ul li a span img{
+            height: 190px;
+            width: 190px;
+            display: block;
+        }
+        div.container.clear-fix ul li{
+            
+            float: left;
+            margin-left: 13px;
+            margin-bottom: 13px;
+            height: 190px;
+            widows: 400px;
+
+        }
+        div.container.clear-fix ul li a span span span{
+            display: block;
+        }
+        div.container.clear-fix ul li a span span{
+            display: block;
+        }
+        .con-write{
+            margin-left: 210px;
+            width: 180px;
+            padding-top: 30px;
         }
